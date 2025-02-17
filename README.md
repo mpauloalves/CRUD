@@ -83,3 +83,8 @@ Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou correç
 ## 📜 Licença:
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
+## 📸 Captura de Tela
+
+
+![Image](https://github.com/user-attachments/assets/365f13d9-7994-4970-b3cb-1d95457a348b)
+
