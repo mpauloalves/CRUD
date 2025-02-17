@@ -3,6 +3,6 @@ import mysql from "mysql"
 export const db = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "M75765563m#",
+    password: process.env.DB_PASSWORD, // Usa variável de ambiente
     database: "crud"
 })
