@@ -1,29 +1,25 @@
-CRUD FullStack com Node.js, React.jse MySQL
-🚀 Descrição do Projeto: Este é um projeto CRUD FullStack desenvolvido utilizando Node.js, React.jse MySQL. A aplicação permite a criação, leitura, atualização e exclusão de usuários, integrando o frontend com o backend e o banco de dados.
+# CRUD FullStack com Node.js, React.js e MySQL
 
-📚 Tecnologias Utilizadas:
-Backend:
+🚀 **Descrição do Projeto:**
+Este é um projeto CRUD FullStack desenvolvido utilizando Node.js, React.js e MySQL. A aplicação permite a criação, leitura, atualização e exclusão de usuários, integrando o frontend com o backend e o banco de dados.
 
-Node.js
+## 📚 Tecnologias Utilizadas:
 
-Express.js
+### Backend:
+- Node.js
+- Express.js
+- MySQL
+- mysql2
 
-MySQL
+### Frontend:
+- React.js
+- styled-components
+- react-toastify
+- axios
 
-mysql2
+## 📂 Estrutura do Projeto:
 
-Frontend:
-
-React.js
-
-styled-components
-
-react-toastify
-
-axios
-
-📂 Estrutura do Projeto:
-bash
+```
 CRUD/
 ├── api/               # Código do servidor backend
 │   ├── node_modules/
@@ -37,50 +33,53 @@ CRUD/
 │   │   ├── components/
 │   │   ├── styles/
 │   │   ├── App.js
-│   │   ├── index.js
-│   │   ├── package.json
-│   │   └── yarn.lock
+│   │   └── index.js
+├── package.json
+├── yarn.lock
 └── README.md          # Documentação do projeto
+```
 
-🌟 Funcionalidades:
-CRUD de Usuários: Adicionar, visualizar, atualizar e excluir usuários.
+## 🌟 Funcionalidades:
+- **CRUD de Usuários:** Adicionar, visualizar, atualizar e excluir usuários.
+- **Notificações:** Feedback em tempo real utilizando react-toastify.
+- **Interface Responsiva:** UI dinâmica e responsiva criada com React.js.
 
-Notificações: Feedback em tempo real utilizando react-toastify.
+## 🔧 Instalação e Uso:
 
-Interface Responsiva: UI dinâmica e responsiva criada com React.js.
+### Backend:
+1. Navegue até a pasta `api`:
+   ```sh
+   cd api
+   ```
+2. Instale as dependências:
+   ```sh
+   yarn install
+   ```
+3. Inicie o servidor:
+   ```sh
+   yarn start
+   ```
 
-🔧 Instalação e Uso:
-Backend
-Navegue até a pasta api:
+### Frontend:
+1. Navegue até a pasta `frontend`:
+   ```sh
+   cd frontend
+   ```
+2. Instale as dependências:
+   ```sh
+   yarn install
+   ```
+3. Inicie o servidor de desenvolvimento:
+   ```sh
+   yarn start
+   ```
 
-bash
-cd api
-Instale as dependências:
+## 📄 Configuração do Banco de Dados:
+Certifique-se de ter um servidor MySQL rodando e crie um banco de dados chamado `crud`. No arquivo `db.js` no backend, configure as credenciais de acesso ao banco de dados.
 
-bash
-yarn install
-Inicie o servidor:
-
-bash
-yarn start
-Frontend
-Navegue até a pasta frontend:
-
-bash
-cd frontend
-Instale as dependências:
-
-bash
-yarn install
-Inicie o servidor de desenvolvimento:
-
-bash
-yarn start
-📄 Configuração do Banco de Dados:
-Certifique-se de ter um servidor MySQL rodando e crie um banco de dados chamado crud. No arquivo db.js no backend, configure as credenciais de acesso ao banco de dados.
-
-🤝 Contribuição:
+## 🤝 Contribuição:
 Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou correções, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-📜 Licença:
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
+## 📜 Licença:
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
